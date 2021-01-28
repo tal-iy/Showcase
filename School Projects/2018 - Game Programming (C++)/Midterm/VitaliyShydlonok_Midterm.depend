@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1521402154 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_midterm\main.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+

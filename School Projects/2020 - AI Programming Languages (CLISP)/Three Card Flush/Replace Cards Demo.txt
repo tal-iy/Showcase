@@ -1,0 +1,36 @@
+[11]> ( demo--replace-cards )
+>>> Testing: replace-cards
+--- *hand1* = ((QUEEN . CLUB) (JACK . SPADE) (4 . SPADE))
+--- *hand2* = ((9 . SPADE) (3 . DIAMOND) (10 . DIAMOND))
+--- *hand1* = (NIL (JACK . SPADE) (4 . SPADE))
+--- *hand2* = ((9 . SPADE) NIL (10 . DIAMOND))
+--- *hand1* = ((9 . DIAMOND) (JACK . SPADE) (4 . SPADE))
+--- *hand2* = ((9 . SPADE) (4 . DIAMOND) (10 . DIAMOND))
+NIL
+[12]> ( demo--replace-cards )
+>>> Testing: replace-cards
+--- *hand1* = ((10 . SPADE) (ACE . DIAMOND) (5 . CLUB))
+--- *hand2* = ((8 . DIAMOND) (8 . HEART) (3 . CLUB))
+--- *hand1* = ((10 . SPADE) NIL (5 . CLUB))
+--- *hand2* = ((8 . DIAMOND) NIL (3 . CLUB))
+--- *hand1* = ((10 . SPADE) (KING . SPADE) (5 . CLUB))
+--- *hand2* = ((8 . DIAMOND) (2 . DIAMOND) (3 . CLUB))
+NIL
+[13]> ( demo--replace-cards )
+>>> Testing: replace-cards
+--- *hand1* = ((3 . DIAMOND) (8 . SPADE) (JACK . HEART))
+--- *hand2* = ((10 . HEART) (ACE . HEART) (4 . HEART))
+--- *hand1* = ((3 . DIAMOND) (8 . SPADE) NIL)
+--- *hand2* = (NIL (ACE . HEART) (4 . HEART))
+--- *hand1* = ((3 . DIAMOND) (8 . SPADE) (JACK . DIAMOND))
+--- *hand2* = ((JACK . SPADE) (ACE . HEART) (4 . HEART))
+NIL
+[14]> ( demo--replace-cards )
+>>> Testing: replace-cards
+--- *hand1* = ((JACK . DIAMOND) (9 . SPADE) (9 . HEART))
+--- *hand2* = ((5 . SPADE) (QUEEN . HEART) (6 . HEART))
+--- *hand1* = ((JACK . DIAMOND) NIL (9 . HEART))
+--- *hand2* = (NIL (QUEEN . HEART) (6 . HEART))
+--- *hand1* = ((JACK . DIAMOND) (3 . CLUB) (9 . HEART))
+--- *hand2* = ((JACK . HEART) (QUEEN . HEART) (6 . HEART))
+NIL

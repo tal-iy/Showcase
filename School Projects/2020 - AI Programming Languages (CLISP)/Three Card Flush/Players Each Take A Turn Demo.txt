@@ -1,0 +1,18 @@
+[16]> ( demo--players-each-take-a-turn )
+>>> Testing: players-each-take-a-turn
+--- The hands ...
+--- *hand1* = ((4 . HEART) (7 . DIAMOND) (4 . CLUB))
+--- *hand2* = ((KING . SPADE) (6 . CLUB) (4 . SPADE))
+--- Each player takes a turn ...
+--- *hand1* = ((4 . HEART) (2 . HEART) (4 . CLUB))
+--- *hand2* = ((8 . CLUB) (6 . CLUB) (4 . SPADE))
+--- Each player takes a turn ...
+--- *hand1* = ((4 . HEART) (9 . DIAMOND) (4 . CLUB))
+--- *hand2* = ((ACE . DIAMOND) (6 . CLUB) (4 . SPADE))
+--- Each player takes a turn ...
+--- *hand1* = ((ACE . CLUB) (9 . DIAMOND) (4 . CLUB))
+--- *hand2* = ((ACE . DIAMOND) (6 . CLUB) (3 . HEART))
+--- Each player takes a turn ...
+--- *hand1* = ((ACE . CLUB) (9 . DIAMOND) (2 . SPADE))
+--- *hand2* = ((ACE . DIAMOND) (10 . DIAMOND) (3 . HEART))
+NIL

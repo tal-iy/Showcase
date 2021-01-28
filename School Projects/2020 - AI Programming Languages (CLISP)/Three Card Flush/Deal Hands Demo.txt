@@ -1,0 +1,12 @@
+[4]> ( demo--deal-hands )
+>>> Testing: deal-hands
+--- *hand1* = ((2 . SPADE) (7 . CLUB) (KING . DIAMOND))
+--- *hand2* = ((6 . CLUB) (3 . DIAMOND) (JACK . HEART))
+--- number of cards in *deck* = 46
+NIL
+[5]> ( demo--deal-hands )
+>>> Testing: deal-hands
+--- *hand1* = ((ACE . SPADE) (ACE . DIAMOND) (5 . CLUB))
+--- *hand2* = ((10 . HEART) (6 . HEART) (8 . CLUB))
+--- number of cards in *deck* = 46
+NIL

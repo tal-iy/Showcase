@@ -1,0 +1,72 @@
+[1]> ( load "MissionariesAndCannibals.lisp" )
+;; Loading file MissionariesAndCannibals.lisp ...
+;; Loaded file MissionariesAndCannibals.lisp
+T
+[2]> ( mc )
+*left-bank* (M M M C C C B)
+*right-bank* NIL
+>>> ( M B )
+*left-bank* (M M C C C)
+*right-bank* (B M)
+Yummy yummy yummy, I got Good in my tummy!!
+NIL
+[3]> ( mc )
+*left-bank* (M M M C C C B)
+*right-bank* NIL
+>>> ( B M C )
+*left-bank* (M M C C)
+*right-bank* (C M B)
+>>> ( B C C )
+Move inapplicable
+NIL
+[4]> ( mc )
+*left-bank* (M M M C C C B)
+*right-bank* NIL
+>>> ( B M C )
+*left-bank* (M M C C)
+*right-bank* (C M B)
+>>> ( B M )
+*left-bank* (M B M M C C)
+*right-bank* (C)
+>>> ( B C C )
+*left-bank* (M M M)
+*right-bank* (C C B C)
+>>> ( B C )
+*left-bank* (C B M M M)
+*right-bank* (C C)
+>>> ( B M M )
+*left-bank* (C M)
+*right-bank* (M M B C C)
+>>> ( B M C )
+*left-bank* (C M B C M)
+*right-bank* (M C)
+>>> ( B M M )
+*left-bank* (C C)
+*right-bank* (M M B M C)
+>>> ( B C )
+*left-bank* (C B C C)
+*right-bank* (M M M)
+>>> ( B C C )
+*left-bank* (C)
+*right-bank* (C C B M M M)
+>>> ( B C )
+*left-bank* (C B C)
+*right-bank* (C M M M)
+>>> ( B C C )
+*left-bank* NIL
+*right-bank* (C C B C M M M)
+Good work!
+NIL
+[5]> ( display-solution )
+(B M C)
+(B M)
+(B C C)
+(B C)
+(B M M)
+(B M C)
+(B M M)
+(B C)
+(B C C)
+(B C)
+(B C C)
+NIL

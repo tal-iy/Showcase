@@ -1,0 +1,70 @@
+################################################################
+#
+#	Vitaliy Shydlonok
+#	CSC 211-002
+#	10/16/2017
+#	vs_program 5.3 outline
+#
+#	minMax.asm using indexed addressing
+#
+#	Prompts the user for 10 integer values,
+#	stores them in an array, and then finds and 
+#	displays the smallest and largest of the 
+#	inputs.
+#
+################################################################
+
+array: starting address of 40 bytes of data (10 integers)
+size: constant holding size of array (40 bytes)
+
+Begin
+	Initialize array index $t0 to 0
+	Initialize min $t2 to highest possible integer 2,147,483,647
+	Initialize max $t3 to lowest possible integer -2,147,483,648
+	InputLoop:  
+		If index $t0 >= size, end loop
+		Prompt for an integer
+		Get integer input and store it in array[index $t0]
+		Increment array index $t0 by sizeof(int): 4
+		Jump back to loop start
+	EndInputLoop:
+	Set array index $t0 back to 0
+    MinMaxLoop:
+		If index $t0 >= size, end loop
+		Load array[index $t0] into current integer $t4
+		If current int $t4 >= min $t2, branch to notMin
+		Copy current int $t4 to min $t2
+		Jump to notMax
+		NotMin:
+			If current int $t4 <= max $t3, branch to notMax;
+			Copy current int $t4 to max $t3
+		NotMax:
+			Increment array index $t0 by sizeof(int): 4
+			Jump back to loop start
+	EndMinMaxLoop:
+	Display "The minimum number is "
+	Display the minimum number 
+	Display "The maximum number is "
+	Display the maximum number
+	Display "cr/lf"
+	End Of Program
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

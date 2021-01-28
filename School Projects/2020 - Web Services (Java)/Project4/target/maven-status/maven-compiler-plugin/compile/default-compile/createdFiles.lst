@@ -1,0 +1,9 @@
+app\WebShop.class
+app\accounts\AccountsController.class
+app\users\UsersController.class
+app\catalog\CatalogController.class
+app\utils\DatabaseTypes$CatalogCategory.class
+app\utils\DatabaseAccess.class
+app\utils\DatabaseTypes$Account.class
+app\utils\DatabaseTypes$CartItem.class
+app\utils\DatabaseTypes.class

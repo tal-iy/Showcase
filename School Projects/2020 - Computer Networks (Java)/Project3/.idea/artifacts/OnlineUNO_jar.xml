@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="OnlineUNO:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OnlineUNO_jar</output-path>
+    <root id="archive" name="OnlineUNO.jar">
+      <element id="module-output" name="OnlineUNO" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,73 @@
+################################################################
+#
+#	Vitaliy Shydlonok
+#	CSC 211-002
+#	10/3/2017
+#	vs_program 6 outline
+#
+#	Prompts the user for how many numbers to enter,
+#	prompt for that many integer values,
+#	stores them in an array, displays the array,
+#	and then find and displays the smallest and largest
+#	of the inputs.
+#
+################################################################
+
+Begin
+	Prompt for an integer 
+	Get integer input $v0 and move it to $t1
+	Load array address into $t0
+	Initialize counter $t3 to 0
+	While loop
+		Prompt for an integer
+		Get integer input $v0 and store it in ($t0)
+		Increment array address $t0 by 4 bytes
+		Increment counter $t3 by 1
+		If counter $t3 is less than $t1, branch to start of While loop
+	End of While loop
+	Print "The numbers you entered were: "
+	Reset array address $t0 to 0
+	Load array address into $t0
+	Initialize counter $t3 to 0
+	Print loop
+		Load word value at array address array($t0) into $t2
+		Print value in $t2
+		If current number $t2 is greater than or equal to smallest $t4, branch to checkedSmallest
+		Copy current number $t2 to smallest $t4
+	CheckedSmallest
+		If current number $t2 is less than or equal to largest $t5, branch to checkedLargest
+		Copy current number $t2 to largest $t5
+	CheckedLargest
+		Print ", "
+		Increment array address $t0 by 4 bytes
+		Increment counter $t3 by 1
+		If counter $t3 is less than $t1, branch to start of Print loop 
+	End of Print loop
+	Print crlf
+	Print "Smallest: "
+	Print smallest $t4
+	Print crlf
+	Print "Largest: "
+	Print largest $t5
+	Print crlf
+	System return
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

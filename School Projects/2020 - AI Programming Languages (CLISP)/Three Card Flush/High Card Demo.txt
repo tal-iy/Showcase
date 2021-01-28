@@ -1,0 +1,9 @@
+[18]> ( demo--high-card )
+>>> Testing: high-card
+(QUEEN . SPADE) is the high card of
+ ((10 . HEART) (5 . CLUB) (QUEEN . SPADE) (7 . HEART))
+(ACE . CLUB) is the high card of
+ ((2 . DIAMOND) (2 . CLUB) (10 . HEART) (4 . DIAMOND) (ACE . CLUB))
+(ACE . DIAMOND) is the high card of
+ ((ACE . DIAMOND) (ACE . CLUB) (5 . SPADE))
+NIL

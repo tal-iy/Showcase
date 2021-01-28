@@ -1,0 +1,48 @@
+dEt / dW1 = ((dEo1/dOUTo1 * dOUTo1/dNETo1 * dNETo1/dOUTh1) + (dEo2/dOUTo2 * dOUTo2/dNETo2 * dNETo2/dOUTh1)) * dOUTh1/dNETh1 * dNETh1/dW1
+
+W[1] -> NET[h1] -> OUT[h1] -> E[o1]+E[o2]
+
+
+W[1] -> NET[h1] -> OUT[h1] -> NET[o1] -> OUT[o1] -> E[o1]
+                           -> NET[o2] -> OUT[o2] -> E[o2]
+
+				
+TWO LAYERS:
+				
+W[1] -> NET[b1] -> OUT[b1] -> NET[c1] -> OUT[c1] -> E[c1]
+                           -> NET[c2] -> OUT[c2] -> E[c2]
+THREE LAYERS:
+						   
+W[1] -> NET[b1] -> OUT[b1] -> NET[c1] -> OUT[c1] -> NET[d1] -> OUT[d1] -> E[d1]
+                                                 -> NET[d2] -> OUT[d2] -> E[d2]
+                           -> NET[c2] -> OUT[c2] -> NET[d1] -> OUT[d1] -> E[d1]
+                                                 -> NET[d2] -> OUT[d2] -> E[d2]
+FOUR LAYERS:
+										 
+W[1] -> NET[b1] -> OUT[b1] -> NET[c1] -> OUT[c1] -> NET[d1] -> OUT[d1] -> NET[e1] -> OUT[e1] -> E[e1]
+																	   -> NET[e2] -> OUT[e2] -> E[e2]
+                                                 -> NET[d2] -> OUT[d2] -> NET[e1] -> OUT[e1] -> E[e1]
+																	   -> NET[e2] -> OUT[e2] -> E[e2]
+                           -> NET[c2] -> OUT[c2] -> NET[d1] -> OUT[d1] -> NET[e1] -> OUT[e1] -> E[e1]
+																	   -> NET[e2] -> OUT[e2] -> E[e2]
+                                                 -> NET[d2] -> OUT[d2] -> NET[e1] -> OUT[e1] -> E[e1]
+																	   -> NET[e2] -> OUT[e2] -> E[e2]
+																	   
+FIVE LAYERS:
+
+W[1] -> NET[b1] -> OUT[b1] -> NET[c1] -> OUT[c1] -> NET[d1] -> OUT[d1] -> NET[e1] -> OUT[e1] -> NET[f1] -> OUT[f1] -> E[f1]
+                                                                                             -> NET[f2] -> OUT[f2] -> E[f2]
+																	   -> NET[e2] -> OUT[e2] -> NET[f1] -> OUT[f1] -> E[f1]
+                                                                                             -> NET[f2] -> OUT[f2] -> E[f2]
+												 -> NET[d2] -> OUT[d2] -> NET[e1] -> OUT[e1] -> NET[f1] -> OUT[f1] -> E[f1]
+                                                                                             -> NET[f2] -> OUT[f2] -> E[f2]
+																	   -> NET[e2] -> OUT[e2] -> NET[f1] -> OUT[f1] -> E[f1]
+                                                                                             -> NET[f2] -> OUT[f2] -> E[f2]
+						   -> NET[c2] -> OUT[c2] -> NET[d1] -> OUT[d1] -> NET[e1] -> OUT[e1] -> NET[f1] -> OUT[f1] -> E[f1]
+                                                                                             -> NET[f2] -> OUT[f2] -> E[f2]
+																	   -> NET[e2] -> OUT[e2] -> NET[f1] -> OUT[f1] -> E[f1]
+                                                                                             -> NET[f2] -> OUT[f2] -> E[f2]
+												 -> NET[d2] -> OUT[d2] -> NET[e1] -> OUT[e1] -> NET[f1] -> OUT[f1] -> E[f1]
+                                                                                             -> NET[f2] -> OUT[f2] -> E[f2]
+																	   -> NET[e2] -> OUT[e2] -> NET[f1] -> OUT[f1] -> E[f1]
+                                                                                             -> NET[f2] -> OUT[f2] -> E[f2]

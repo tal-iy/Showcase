@@ -1,0 +1,15 @@
+[2]> ( mc nil )
+
+>>> GOT A SOLUTION!
+Move ( C M B ) from left bank to right bank.
+Move ( M B ) from right bank to left bank.
+Move ( C C B ) from left bank to right bank.
+Move ( C B ) from right bank to left bank.
+Move ( M M B ) from left bank to right bank.
+Move ( C M B ) from right bank to left bank.
+Move ( M M B ) from left bank to right bank.
+Move ( C B ) from right bank to left bank.
+Move ( C C B ) from left bank to right bank.
+Move ( M B ) from right bank to left bank.
+Move ( C M B ) from left bank to right bank.
+NIL

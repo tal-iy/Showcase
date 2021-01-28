@@ -1,0 +1,85 @@
+[1]> ( load "RecursiveListProcessing.lisp" )
+;; Loading file RecursiveListProcessing.lisp ...
+;; Loaded file RecursiveListProcessing.lisp
+T
+[2]> ( trace sum product )
+;; Tracing function SUM.
+;; Tracing function PRODUCT.
+(SUM PRODUCT)
+[3]> ( sum '() )
+1. Trace: (SUM 'NIL)
+1. Trace: SUM ==> 0
+0
+[4]> ( sum '(496) )
+1. Trace: (SUM '(496))
+1. Trace: SUM ==> 496
+496
+[5]> ( sum '(1 11 111) )
+1. Trace: (SUM '(1 11 111))
+2. Trace: (SUM '(11 111))
+3. Trace: (SUM '(111))
+3. Trace: SUM ==> 111
+2. Trace: SUM ==> 122
+1. Trace: SUM ==> 123
+123
+[6]> ( sum '(1 2 3 4 5 6 7 8 9 10) )
+1. Trace: (SUM '(1 2 3 4 5 6 7 8 9 10))
+2. Trace: (SUM '(2 3 4 5 6 7 8 9 10))
+3. Trace: (SUM '(3 4 5 6 7 8 9 10))
+4. Trace: (SUM '(4 5 6 7 8 9 10))
+5. Trace: (SUM '(5 6 7 8 9 10))
+6. Trace: (SUM '(6 7 8 9 10))
+7. Trace: (SUM '(7 8 9 10))
+8. Trace: (SUM '(8 9 10))
+9. Trace: (SUM '(9 10))
+10. Trace: (SUM '(10))
+10. Trace: SUM ==> 10
+9. Trace: SUM ==> 19
+8. Trace: SUM ==> 27
+7. Trace: SUM ==> 34
+6. Trace: SUM ==> 40
+5. Trace: SUM ==> 45
+4. Trace: SUM ==> 49
+3. Trace: SUM ==> 52
+2. Trace: SUM ==> 54
+1. Trace: SUM ==> 55
+55
+[7]> ( product '() )
+1. Trace: (PRODUCT 'NIL)
+1. Trace: PRODUCT ==> 1
+1
+[8]> ( product '(496) )
+1. Trace: (PRODUCT '(496))
+1. Trace: PRODUCT ==> 496
+496
+[9]> ( product '(1 11 111) )
+1. Trace: (PRODUCT '(1 11 111))
+2. Trace: (PRODUCT '(11 111))
+3. Trace: (PRODUCT '(111))
+3. Trace: PRODUCT ==> 111
+2. Trace: PRODUCT ==> 1221
+1. Trace: PRODUCT ==> 1221
+1221
+[10]> ( product '(1 2 3 4 5 6 7 8 9 10) )
+1. Trace: (PRODUCT '(1 2 3 4 5 6 7 8 9 10))
+2. Trace: (PRODUCT '(2 3 4 5 6 7 8 9 10))
+3. Trace: (PRODUCT '(3 4 5 6 7 8 9 10))
+4. Trace: (PRODUCT '(4 5 6 7 8 9 10))
+5. Trace: (PRODUCT '(5 6 7 8 9 10))
+6. Trace: (PRODUCT '(6 7 8 9 10))
+7. Trace: (PRODUCT '(7 8 9 10))
+8. Trace: (PRODUCT '(8 9 10))
+9. Trace: (PRODUCT '(9 10))
+10. Trace: (PRODUCT '(10))
+10. Trace: PRODUCT ==> 10
+9. Trace: PRODUCT ==> 90
+8. Trace: PRODUCT ==> 720
+7. Trace: PRODUCT ==> 5040
+6. Trace: PRODUCT ==> 30240
+5. Trace: PRODUCT ==> 151200
+4. Trace: PRODUCT ==> 604800
+3. Trace: PRODUCT ==> 1814400
+2. Trace: PRODUCT ==> 3628800
+1. Trace: PRODUCT ==> 3628800
+3628800
+[11]> ( bye )

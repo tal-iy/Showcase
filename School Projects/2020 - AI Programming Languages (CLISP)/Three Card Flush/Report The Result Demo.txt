@@ -1,0 +1,35 @@
+[22]> ( demo--report-the-result )
+>>> Testing: report-the-result
+Game 1 ...
+v*hand1* = ((2 . DIAMOND) (4 . DIAMOND) (JACK . HEART))
+v*hand2* = ((10 . SPADE) (KING . HEART) (QUEEN . HEART))
+--> The game is a draw. The deck is dead.
+Game 2 ...
+i*hand1* = ((2 . DIAMOND) (4 . DIAMOND) (JACK . DIAMOND))
+i*hand2* = ((10 . SPADE) (KING . HEART) (QUEEN . HEART))
+--> Player 1 wins with (JACK HIGH DIAMOND FLUSH)
+Game 3 ...
+t*hand1* = ((2 . DIAMOND) (4 . HEART) (JACK . DIAMOND))
+t*hand2* = ((10 . HEART) (KING . HEART) (QUEEN . HEART))
+--> Player 2 wins with (KING HIGH HEART FLUSH)
+Game 4 ...
+a*hand1* = ((10 . DIAMOND) (JACK . DIAMOND) (2 . DIAMOND))
+a*hand2* = ((3 . SPADE) (5 . SPADE) (4 . SPADE))
+!!! Both players found their way to a flush
+--> Player 2 wins with (5 HIGH STRAIGHT SPADE FLUSH)
+Game 5 ...
+l*hand1* = ((10 . DIAMOND) (JACK . DIAMOND) (9 . DIAMOND))
+l*hand2* = ((3 . SPADE) (7 . SPADE) (4 . SPADE))
+!!! Both players found their way to a flush
+--> Player 1 wins with (JACK HIGH STRAIGHT DIAMOND FLUSH)
+Game 6 ...
+i*hand1* = ((ACE . DIAMOND) (JACK . DIAMOND) (4 . DIAMOND))
+i*hand2* = ((3 . SPADE) (7 . SPADE) (4 . SPADE))
+!!! Both players found their way to a flush
+--> Player 1 wins with (ACE HIGH DIAMOND FLUSH)
+Game 6 ...
+y*hand1* = ((ACE . DIAMOND) (JACK . DIAMOND) (4 . DIAMOND))
+y*hand2* = ((ACE . SPADE) (7 . SPADE) (4 . SPADE))
+!!! Both players found their way to a flush
+--> Player 2 wins with (ACE HIGH SPADE FLUSH)
+NIL

@@ -1,0 +1,38 @@
+################################################################
+#
+#	Vitaliy Shydlonok
+#	CSC 211-002
+#	9/14/2017
+#	vs_program 2
+#
+#	Prompts the user to input three integers,
+#	then prints the largest of them on the
+#	screen.
+#
+################################################################
+
+Begin
+	Print first prompt
+	Get first integer input
+	Move first input to $t0
+	Print second prompt
+	Get second integer input
+	Move second input to $t1
+	Print third prompt
+	Get third integer input
+	Move third input to $t2
+	Print message
+	If (first number < second number), branch to Second
+	If (first number < third number), branch to Third
+	Print first number $t0
+	Jump to CRLF
+Second
+	If (second number < third number), branch to Third
+	Print second number $t1
+	Jump to CRLF
+Third
+	Print third number $t2
+CRLF
+	Print crlf
+	System return
+End

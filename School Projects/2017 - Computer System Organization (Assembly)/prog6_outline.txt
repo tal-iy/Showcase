@@ -1,0 +1,54 @@
+################################################################
+#
+#	Vitaliy Shydlonok
+#	CSC 211-002
+#	10/26/2017
+#	vs_program 6 outline
+#
+#	minMax.asm with bubble sort
+#
+#	Prompts the user for 10 integer values,
+#	stores them in an array, and then sorts and 
+#	displays the sorted array.
+#
+################################################################
+
+array: starting address of 40 bytes of data (10 integers)
+size: constant holding size of array (40 bytes)
+
+Begin
+	Initialize array index $t0 to 0	 
+	InputLoop:  
+		If index $t0 >= size, branch to endInputLoop
+		Prompt for an integer	
+		Get integer input and store it in array[index $t0]	
+		Increment array index $t0 by sizeof(int): 4	
+		Jump back to inputLoop
+	EndInputLoop:
+	Set array index $t0 back to 0	
+	SortLoop:
+		If array index $t0 >= (size-1), branch to endSortLoop	
+		Initialize compareLoop index $t2 to sizeof(int): 4
+		CompareLoop:
+			If compareLoop index $t2 >= size, branch to endCompareLoop
+			If array[index $t2] >= array[index $t2 - 1], branch to isGreater	
+			Swap values of array[index $t2] and array[index $t2 - 1]
+			IsGreater:
+				Increment compareLoop index $t2 by sizeof(int): 4	
+				Jump back to compareLoop
+		EndCompareLoop:
+		Increment array index $t0 by sizeof(int): 4
+		Jump back to sortLoop
+	EndSortLoop:
+	Display "Sorted inputs: "
+	Set array index $t0 back to 0
+	PrintLoop:
+		If index $t0 >= size, branch to endPrintLoop
+		Display array[index $t0]
+		Display a space
+		Increment array index $t0 by sizeof(int): 4
+		Jump back to printLoop
+	EndPrintLoop:
+	Display "cr/lf"
+	End Of Program
+End

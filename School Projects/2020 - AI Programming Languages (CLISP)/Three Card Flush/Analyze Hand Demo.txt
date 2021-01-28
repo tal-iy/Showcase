@@ -1,0 +1,6 @@
+[20]> ( demo--analyze-hand )
+>>> Testing: analyze-hand
+((5 . SPADE) (3 . DIAMOND) (4 . SPADE)) is a BUST
+((5 . CLUB) (9 . CLUB) (4 . CLUB)) is a (9 HIGH CLUB FLUSH)
+((QUEEN . HEART) (ACE . HEART) (KING . HEART)) is a (ACE HIGH STRAIGHT HEART FLUSH)
+NIL

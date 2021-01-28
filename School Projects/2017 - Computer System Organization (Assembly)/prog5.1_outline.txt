@@ -1,0 +1,66 @@
+################################################################
+#
+#	Vitaliy Shydlonok
+#	CSC 211-002
+#	9/28/2017
+#	vs_program 5 outline
+#
+#	Prompts the user to input 10 integer values,
+#	stores them in an array, displays the array,
+#	and then calculates and displays the average
+#	of the inputs.
+#
+################################################################
+
+Begin
+	Load address of the array into $t0
+	Initialize array size $t1 to 10
+	Initialize counter $t3 to 0
+	Initialize total $t4 to 0
+	While loop
+		Prompt for an integer
+		Get integer input $v0 and store it in ($t0)
+		Increment total $t4 by input $v0
+		Increment array address $t0 by 4 bytes
+		Increment counter $t3 by 1
+		If counter $t3 is less than $t1, branch to start of While loop
+	End of While loop
+	Print "The numbers you entered were: "
+	Initialize array index $t0 to 0
+	Initialize counter $t3 to 0
+	Load address of the array into $t0
+	Print loop
+		Load word value at array address ($t0) into $t2
+		Print value in $t2
+		Print ", "
+		Increment array address $t0 by 4 bytes
+		Increment counter $t3 by 1
+		If counter $t3 is less than $t1, branch to start of Print loop 
+	End of Print loop
+	Print crlf
+	Print "Average: "
+	Calculate total $t4 divided by array size $t1
+	Move from low to $t5
+	Print average $t5
+	Print crlf
+	System return
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

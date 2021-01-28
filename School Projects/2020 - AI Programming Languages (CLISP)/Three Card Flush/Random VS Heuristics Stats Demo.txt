@@ -1,0 +1,91 @@
+[12]> ( compute-statistics 10 )
+((A . C) (4 . S) (6 . D)) ((7 . C) (5 . C) (4 . D))
+((3 . C) (4 . S) (6 . D)) ((7 . C) (5 . C) (9 . D))
+((3 . C) (X . S) (6 . D)) ((7 . C) (5 . C) (3 . H))
+((3 . C) (X . S) (Q . C)) ((7 . C) (5 . C) (A . D))
+((3 . C) (X . S) (A . H)) ((7 . C) (5 . C) (J . S))
+((3 . C) (X . S) (K . D)) ((7 . C) (5 . C) (K . S))
+((3 . C) (X . S) (9 . C)) ((7 . C) (5 . C) (3 . D))
+((3 . C) (9 . H) (9 . C)) ((7 . C) (5 . C) (2 . S))
+((X . C) (9 . H) (9 . C)) ((7 . C) (5 . C) (2 . D))
+((X . C) (4 . C) (9 . C)) ((7 . C) (5 . C) (8 . C))
+!!! Both players found their way to a flush
+--> Player 1 wins with (10 HIGH CLUB FLUSH)
+((X . S) (2 . H) (9 . C)) ((7 . C) (5 . C) (X . D))
+((X . C) (2 . H) (9 . C)) ((7 . C) (5 . C) (9 . H))
+((X . C) (2 . H) (6 . D)) ((7 . C) (5 . C) (J . H))
+((K . H) (2 . H) (6 . D)) ((7 . C) (5 . C) (6 . H))
+((4 . H) (2 . H) (6 . D)) ((7 . C) (5 . C) (Q . S))
+((J . C) (2 . H) (6 . D)) ((7 . C) (5 . C) (5 . H))
+((J . C) (2 . H) (K . C)) ((7 . C) (5 . C) (4 . C))
+--> Player 2 wins with (7 HIGH CLUB FLUSH)
+((X . S) (4 . S) (9 . H)) ((3 . H) (6 . C) (2 . C))
+((X . S) (4 . S) (7 . C)) ((X . H) (6 . C) (2 . C))
+((X . S) (J . D) (7 . C)) ((J . C) (6 . C) (2 . C))
+--> Player 2 wins with (JACK HIGH CLUB FLUSH)
+((3 . S) (9 . C) (6 . H)) ((A . S) (Q . D) (2 . C))
+((3 . S) (9 . C) (Q . H)) ((A . S) (Q . D) (A . H))
+((3 . S) (8 . H) (Q . H)) ((A . S) (X . S) (A . H))
+((3 . S) (J . S) (Q . H)) ((A . S) (X . S) (7 . D))
+((7 . C) (J . S) (Q . H)) ((A . S) (X . S) (4 . C))
+((7 . C) (5 . D) (Q . H)) ((A . S) (X . S) (Q . C))
+((7 . C) (5 . D) (Q . S)) ((A . S) (X . S) (J . C))
+((7 . C) (6 . S) (Q . S)) ((A . S) (X . S) (6 . D))
+((7 . C) (6 . C) (Q . S)) ((A . S) (X . S) (2 . D))
+((7 . C) (4 . D) (Q . S)) ((A . S) (X . S) (K . D))
+((7 . C) (2 . H) (Q . S)) ((A . S) (X . S) (K . S))
+--> Player 2 wins with (ACE HIGH SPADE FLUSH)
+((7 . H) (X . D) (7 . S)) ((2 . S) (4 . C) (8 . H))
+((7 . H) (J . D) (7 . S)) ((4 . D) (4 . C) (8 . H))
+((7 . H) (6 . C) (7 . S)) ((K . C) (4 . C) (8 . H))
+((7 . H) (7 . C) (7 . S)) ((K . C) (4 . C) (J . C))
+--> Player 2 wins with (KING HIGH CLUB FLUSH)
+((7 . C) (7 . S) (Q . S)) ((Q . D) (3 . S) (A . D))
+((7 . C) (7 . S) (J . S)) ((Q . D) (4 . D) (A . D))
+--> Player 2 wins with (ACE HIGH DIAMOND FLUSH)
+((3 . S) (4 . S) (5 . D)) ((9 . D) (8 . H) (5 . H))
+((3 . S) (4 . S) (9 . S)) ((6 . H) (8 . H) (5 . H))
+!!! Both players found their way to a flush
+--> Player 1 wins with (9 HIGH SPADE FLUSH)
+((K . H) (A . C) (6 . C)) ((9 . H) (X . H) (4 . H))
+--> Player 2 wins with (10 HIGH HEART FLUSH)
+((9 . S) (6 . S) (3 . H)) ((7 . S) (4 . D) (J . C))
+((9 . S) (6 . S) (X . C)) ((7 . S) (3 . D) (J . C))
+((A . S) (6 . S) (X . C)) ((7 . S) (8 . H) (J . C))
+((A . S) (9 . D) (X . C)) ((6 . D) (8 . H) (J . C))
+((A . S) (K . C) (X . C)) ((3 . C) (8 . H) (J . C))
+((A . S) (5 . C) (X . C)) ((3 . C) (5 . S) (J . C))
+((A . S) (3 . S) (X . C)) ((3 . C) (2 . S) (J . C))
+((A . C) (3 . S) (X . C)) ((3 . C) (8 . C) (J . C))
+--> Player 2 wins with (JACK HIGH CLUB FLUSH)
+((5 . S) (2 . S) (9 . S)) ((9 . C) (A . S) (J . S))
+--> Player 1 wins with (9 HIGH SPADE FLUSH)
+*vgame-count* = 10
+*iturn-count* = 49
+*twin1-count* = 3
+*awin2-count* = 7
+*ldraw-count* = 0
+*if1f2-count* = 2
+NIL
+[13]> ( compute-statistics 100 )
+; ...
+; redacted
+; ...
+*vgame-count* = 100
+*iturn-count* = 502
+*twin1-count* = 22
+*awin2-count* = 78
+*ldraw-count* = 0
+*if1f2-count* = 3
+NIL
+[13]> ( compute-statistics 1000 )
+; ...
+; redacted
+; ...
+*vgame-count* = 1000
+*iturn-count* = 4787
+*twin1-count* = 202
+*awin2-count* = 798
+*ldraw-count* = 0
+*if1f2-count* = 42
+NIL

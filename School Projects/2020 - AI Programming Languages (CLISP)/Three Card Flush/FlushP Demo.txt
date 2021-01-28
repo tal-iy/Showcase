@@ -1,0 +1,9 @@
+[17]> ( demo--flush-p )
+>>> Testing: flush-p
+((2 . CLUB) (ACE . CLUB) (10 . CLUB)) is a flush
+((JACK . DIAMOND) (9 . DIAMOND) (5 . DIAMOND)) is a flush
+((JACK . HEART) (10 . HEART) (9 . HEART)) is a flush
+((2 . SPADE) (3 . SPADE) (ACE . SPADE)) is a flush
+((10 . SPADE) (5 . DIAMOND) (ACE . SPADE)) is not a flush
+((8 . CLUB) (9 . DIAMOND) (10 . HEART)) is not a flush
+NIL

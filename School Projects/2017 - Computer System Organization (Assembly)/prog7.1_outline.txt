@@ -1,0 +1,48 @@
+################################################################
+#
+#	Vitaliy Shydlonok
+#	CSC 211-002
+#	11/3/2017
+#	vs_program 7.1 outline
+#
+#	Mask and Rotate
+#
+#	Prints ascii of 0x44434241
+#
+################################################################
+
+Begin
+	Initialize word $t2 to 0x44434241	
+	Mask least most 8 bits of word $t2 into $a0	
+	Print $a0 as ascii character	
+	Rotate right word $t2 by 8 bits	
+	Mask least most 8 bits of word $t2 into $a0	
+	Print $a0 as ascii character	
+	Rotate right word $t2 by 8 bits	
+	Mask least most 8 bits of word $t2 into $a0	
+	Print $a0 as ascii character	
+	Rotate right word $t2 by 8 bits	
+	Mask least most 8 bits of word $t2 into $a0
+	Print $a0 as ascii character
+	Display "cr/lf"
+	End Of Program
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="879a6389-bc59-4369-9c5d-5af613d1a562" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZwXTKNlPtfnpOBeCZgO8JW4oqw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/app" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Glance\IdeaProjects\WebShopApp\src\main\java\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WebShop">
+    <configuration name="WebShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.WebShop" />
+      <module name="WebShopApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WebShopApp [exec:java]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="exec:java" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WebShop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="879a6389-bc59-4369-9c5d-5af613d1a562" name="Default Changelist" comment="" />
+      <created>1585751137011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585751137011</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="124" y="0" key="#Project_Structure" timestamp="1585753334236">
+      <screen x="0" y="0" width="1064" height="560" />
+    </state>
+    <state x="124" y="0" key="#Project_Structure/0.0.1064.560@0.0.1064.560" timestamp="1585753334236" />
+    <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585768579855">
+      <screen x="0" y="0" width="1064" height="560" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1064.560@0.0.1064.560" timestamp="1585768579855" />
+    <state width="1021" height="123" key="GridCell.Tab.0.bottom" timestamp="1585769589199">
+      <screen x="0" y="0" width="1064" height="560" />
+    </state>
+    <state width="1021" height="123" key="GridCell.Tab.0.bottom/0.0.1064.560@0.0.1064.560" timestamp="1585769589199" />
+    <state width="1021" height="123" key="GridCell.Tab.0.center" timestamp="1585769589199">
+      <screen x="0" y="0" width="1064" height="560" />
+    </state>
+    <state width="1021" height="123" key="GridCell.Tab.0.center/0.0.1064.560@0.0.1064.560" timestamp="1585769589199" />
+    <state width="1021" height="123" key="GridCell.Tab.0.left" timestamp="1585769589199">
+      <screen x="0" y="0" width="1064" height="560" />
+    </state>
+    <state width="1021" height="123" key="GridCell.Tab.0.left/0.0.1064.560@0.0.1064.560" timestamp="1585769589199" />
+    <state width="1021" height="123" key="GridCell.Tab.0.right" timestamp="1585769589199">
+      <screen x="0" y="0" width="1064" height="560" />
+    </state>
+    <state width="1021" height="123" key="GridCell.Tab.0.right/0.0.1064.560@0.0.1064.560" timestamp="1585769589199" />
+    <state x="62" y="0" key="Maven.ArtifactSearchDialog" timestamp="1585752981964">
+      <screen x="0" y="0" width="1064" height="560" />
+    </state>
+    <state x="62" y="0" key="Maven.ArtifactSearchDialog/0.0.1064.560@0.0.1064.560" timestamp="1585752981964" />
+  </component>
+</project>

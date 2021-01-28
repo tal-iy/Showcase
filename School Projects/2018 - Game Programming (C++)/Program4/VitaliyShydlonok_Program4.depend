@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1519585528 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program4\main.cpp
+	<math.h>
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+

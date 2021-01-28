@@ -1,0 +1,47 @@
+################################################################
+#
+#	Vitaliy Shydlonok
+#	CSC 211-002
+#	11/3/2017
+#	vs_program 7.2 outline
+#
+#	Mask and Rotate using a loop
+#
+#	Prints ascii of 0x706F6F4C, "Loop" backwards
+#
+################################################################
+
+Begin
+	Initialize index $t0 to 0
+	Initialize ending index $t1 to 4
+	Initialize word $t2 to 0x706F6F4C
+	Loop: 
+		If index $t0 >= ending index $t1, branch to endLoop	
+		Mask least most 8 bits of word $t2 into $a0
+		Print $a0 as ascii character
+		Rotate right word $t2 by 8 bits
+		Increment index $t0 by 1
+		Jump back to loop
+	EndLoop:
+	Display "cr/lf"
+	End Of Program
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

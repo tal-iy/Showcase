@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app version="3.0"
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+   <servlet>
+      <servlet-name>account</servlet-name>
+      <servlet-class>pkg.AccountServlet</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>cart</servlet-name>
+      <servlet-class>pkg.CartServlet</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>catalog</servlet-name>
+      <servlet-class>pkg.CatalogServlet</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+      <servlet-name>account</servlet-name>
+      <url-pattern>/account/*</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>cart</servlet-name>
+      <url-pattern>/cart/*</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>catalog</servlet-name>
+      <url-pattern>/catalog/*</url-pattern>
+   </servlet-mapping>
+</web-app>
