@@ -4,7 +4,7 @@ I am Vitaliy Shydlonok. This GitHub repository is for showcasing my school and p
 # Highlights
 
 - [Multiplayer UNO Game (Java)](School%20Projects/2020%20-%20Computer%20Networks%20(Java)/Project3/)
-- [Semantic Neural Network (Java)](2020%20-%20Data%20Structures%20%26%20Algorithms%20(Java)/)
+- [Semantic Neural Network (Java)](School%20Projects/2020%20-%20Data%20Structures%20%26%20Algorithms%20(Java)/)
 - [Flip - Distributed Computing (Java)](School%20Projects/2019%20-%20Parallel%20Computing%20(Java)/Assignment3B/)
 - [Perceptron - Genetic Algorithm (CLISP)](School%20Projects/2020%20-%20AI%20Programming%20Languages%20(CLISP)/Genetic%20Algorithm/)
 
