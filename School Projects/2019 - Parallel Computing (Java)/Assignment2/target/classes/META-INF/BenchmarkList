@@ -1,0 +1,10 @@
+JMH S 15 com.Assignment2 S 41 com.generated.Assignment2_myList1_jmhTest S 7 myList1 S 10 Throughput E A 1 1 1 E I 1 3 E E I 1 5 E E I 1 3 E E E E E M 1 6 CHANCE 2 2 20 2 40 U 12 MILLISECONDS E E 
+JMH S 15 com.Assignment2 S 42 com.generated.Assignment2_jdkList4_jmhTest S 8 jdkList4 S 10 Throughput E A 1 1 4 E I 1 3 E E I 1 5 E E I 1 3 E E E E E M 1 6 CHANCE 2 2 20 2 40 U 12 MILLISECONDS E E 
+JMH S 15 com.Assignment2 S 41 com.generated.Assignment2_myList4_jmhTest S 7 myList4 S 10 Throughput E A 1 1 4 E I 1 3 E E I 1 5 E E I 1 3 E E E E E M 1 6 CHANCE 2 2 20 2 40 U 12 MILLISECONDS E E 
+JMH S 15 com.Assignment2 S 41 com.generated.Assignment2_myList2_jmhTest S 7 myList2 S 10 Throughput E A 1 1 2 E I 1 3 E E I 1 5 E E I 1 3 E E E E E M 1 6 CHANCE 2 2 20 2 40 U 12 MILLISECONDS E E 
+JMH S 15 com.Assignment2 S 42 com.generated.Assignment2_myList16_jmhTest S 8 myList16 S 10 Throughput E A 1 2 16 E I 1 3 E E I 1 5 E E I 1 3 E E E E E M 1 6 CHANCE 2 2 20 2 40 U 12 MILLISECONDS E E 
+JMH S 15 com.Assignment2 S 42 com.generated.Assignment2_jdkList8_jmhTest S 8 jdkList8 S 10 Throughput E A 1 1 8 E I 1 3 E E I 1 5 E E I 1 3 E E E E E M 1 6 CHANCE 2 2 20 2 40 U 12 MILLISECONDS E E 
+JMH S 15 com.Assignment2 S 41 com.generated.Assignment2_myList8_jmhTest S 7 myList8 S 10 Throughput E A 1 1 8 E I 1 3 E E I 1 5 E E I 1 3 E E E E E M 1 6 CHANCE 2 2 20 2 40 U 12 MILLISECONDS E E 
+JMH S 15 com.Assignment2 S 43 com.generated.Assignment2_jdkList16_jmhTest S 9 jdkList16 S 10 Throughput E A 1 2 16 E I 1 3 E E I 1 5 E E I 1 3 E E E E E M 1 6 CHANCE 2 2 20 2 40 U 12 MILLISECONDS E E 
+JMH S 15 com.Assignment2 S 42 com.generated.Assignment2_jdkList1_jmhTest S 8 jdkList1 S 10 Throughput E A 1 1 1 E I 1 3 E E I 1 5 E E I 1 3 E E E E E M 1 6 CHANCE 2 2 20 2 40 U 12 MILLISECONDS E E 
+JMH S 15 com.Assignment2 S 42 com.generated.Assignment2_jdkList2_jmhTest S 8 jdkList2 S 10 Throughput E A 1 1 2 E I 1 3 E E I 1 5 E E I 1 3 E E E E E M 1 6 CHANCE 2 2 20 2 40 U 12 MILLISECONDS E E 

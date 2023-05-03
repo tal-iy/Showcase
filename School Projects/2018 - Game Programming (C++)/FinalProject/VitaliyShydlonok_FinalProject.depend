@@ -1,0 +1,192 @@
+# depslib dependency file v1.0
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\audio.cpp
+	"Audio.h"
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\game.cpp
+	"Game.h"
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\graphics.h
+	<SDL/SDL.h>
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\input.h
+	<SDL/SDL.h>
+
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\gamestate.cpp
+	"GameState.h"
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\gamestate.h
+	"StateManager.h"
+	"Graphics.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\statemanager.h
+	<stack>
+	"GameState.h"
+	"Graphics.h"
+
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\graphics.cpp
+	"Graphics.h"
+
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\image.cpp
+	"Image.h"
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\input.cpp
+	"Input.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\map.cpp
+	"Map.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\map.h
+	"Graphics.h"
+	"Image.h"
+	<fstream>
+	<vector>
+
+1523828399 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\mapnode.cpp
+	"MapNode.h"
+
+1523830631 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\mapnode.h
+	"Map.h"
+	"SceneNode.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\scenenode.h
+	"Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\rectangle.h
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\music.cpp
+	"Music.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\music.h
+	"Audio.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\outlinefont.cpp
+	"OutlineFont.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\outlinefont.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\rasterfont.cpp
+	"RasterFont.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\rasterfont.h
+	"Image.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\rectangle.cpp
+	"Rectangle.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\scene.cpp
+	"Scene.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\scenenode.cpp
+	"SceneNode.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\sound.cpp
+	"Sound.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\sound.h
+	"Audio.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\sprite.cpp
+	"Sprite.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\sprite.h
+	"Image.h"
+	"Rectangle.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\core\statemanager.cpp
+	"StateManager.h"
+
+1525739756 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\explosionentity.cpp
+	"ExplosionEntity.h"
+
+1525639710 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\explosionentity.h
+	"Core\SceneNode.h"
+	"Core\Sprite.h"
+	"EnumDef.h"
+	"Factory.h"
+
+1525565982 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\entitydef.h
+
+1525639744 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\factory.h
+	"Core/Image.h"
+	"Core/SceneNode.h"
+	"Enemy.h"
+	"Projectile.h"
+	"EnumDef.h"
+	"ExplosionEntity.h"
+	"Player.h"
+
+1525639649 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\enemy.h
+	"Core/SceneNode.h"
+	"Core/Sprite.h"
+	"Factory.h"
+	"EnumDef.h"
+
+1525639777 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\projectile.h
+	"Core/SceneNode.h"
+	"Core/Sprite.h"
+	"Factory.h"
+	"EnumDef.h"
+
+1525636715 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\player.h
+	"Core/Sprite.h"
+	"Core/SceneNode.h"
+	"Core/Rectangle.h"
+	"EnumDef.h"
+	"Factory.h"
+
+1525742979 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\factory.cpp
+	"Factory.h"
+
+1525743078 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\gamescene.cpp
+	"GameScene.h"
+
+1525743067 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\gamescene.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Core/Scene.h"
+	"Core/SceneNode.h"
+	"Core/Rectangle.h"
+	"Core/OutlineFont.h"
+	"Factory.h"
+	"Player.h"
+	"Enemy.h"
+	"Projectile.h"
+	"ExplosionEntity.h"
+
+1525742702 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\main.cpp
+	"GameScene.h"
+
+1525739730 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\enemy.cpp
+	"Enemy.h"
+
+1525742416 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\player.cpp
+	"Player.h"
+
+1525742665 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\projectile.cpp
+	"Projectile.h"
+
+1525738584 c:\users\glance\downloads\gamedev\vitaliyshydlonok_finalproject\enumdef.h
+

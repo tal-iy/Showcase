@@ -1,0 +1,21 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: CHANCE"
+"com.Assignment2.jdkList1","thrpt",1,15,8988.269161,2649.056689,"ops/ms",20
+"com.Assignment2.jdkList1","thrpt",1,15,10934.590617,1553.756676,"ops/ms",40
+"com.Assignment2.jdkList16","thrpt",16,15,7112.522499,737.401176,"ops/ms",20
+"com.Assignment2.jdkList16","thrpt",16,15,5673.667016,1772.527902,"ops/ms",40
+"com.Assignment2.jdkList2","thrpt",2,15,6910.285963,884.473288,"ops/ms",20
+"com.Assignment2.jdkList2","thrpt",2,15,6848.259905,1367.368021,"ops/ms",40
+"com.Assignment2.jdkList4","thrpt",4,15,7224.213108,849.841781,"ops/ms",20
+"com.Assignment2.jdkList4","thrpt",4,15,6145.148472,1799.784304,"ops/ms",40
+"com.Assignment2.jdkList8","thrpt",8,15,7060.673158,842.731168,"ops/ms",20
+"com.Assignment2.jdkList8","thrpt",8,15,5860.209499,1856.143483,"ops/ms",40
+"com.Assignment2.myList1","thrpt",1,15,9250.755239,2539.296748,"ops/ms",20
+"com.Assignment2.myList1","thrpt",1,15,11893.693506,1038.610675,"ops/ms",40
+"com.Assignment2.myList16","thrpt",16,15,6663.703953,1158.473158,"ops/ms",20
+"com.Assignment2.myList16","thrpt",16,15,5599.061647,2096.297665,"ops/ms",40
+"com.Assignment2.myList2","thrpt",2,15,6233.497713,871.573205,"ops/ms",20
+"com.Assignment2.myList2","thrpt",2,15,4348.342400,1423.164481,"ops/ms",40
+"com.Assignment2.myList4","thrpt",4,15,6794.695013,1094.471501,"ops/ms",20
+"com.Assignment2.myList4","thrpt",4,15,5660.224491,1657.990813,"ops/ms",40
+"com.Assignment2.myList8","thrpt",8,15,6795.334930,960.379319,"ops/ms",20
+"com.Assignment2.myList8","thrpt",8,15,5565.145115,2005.075331,"ops/ms",40

@@ -1,0 +1,11 @@
+[21]> ( demo--analyze-game )
+>>> Testing: analyze-game
+Game 1 ...
+*hand1* = ((2 . DIAMOND) (4 . DIAMOND) (JACK . HEART))
+*hand2* = ((10 . SPADE) (KING . HEART) (QUEEN . HEART))
+*game-state* = (BUST BUST)
+Game 2 ...
+*hand1* = ((10 . DIAMOND) (JACK . DIAMOND) (2 . DIAMOND))
+*hand2* = ((3 . SPADE) (5 . SPADE) (4 . SPADE))
+*game-state* = ((JACK HIGH DIAMOND FLUSH) (5 HIGH STRAIGHT SPADE FLUSH))
+NIL

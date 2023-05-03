@@ -1,0 +1,1 @@
+bounds([X, Y],[BX, BY, Width, Height]) :- X > BX, X < BX+Width+1, Y > BY, Y < BY+Height+1.

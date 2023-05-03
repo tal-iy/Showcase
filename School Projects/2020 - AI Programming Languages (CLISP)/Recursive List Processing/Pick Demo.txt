@@ -1,0 +1,56 @@
+[1]> ( load "RecursiveListProcessing.lisp" )
+;; Loading file RecursiveListProcessing.lisp ...
+;; Loaded file RecursiveListProcessing.lisp
+T
+[2]> ( trace select )
+;; Tracing function SELECT.
+(SELECT)
+[3]> ( select 1 '(a) )
+1. Trace: (SELECT '1 '(A))
+2. Trace: (SELECT '0 'NIL)
+2. Trace: SELECT ==> NIL
+1. Trace: SELECT ==> NIL
+NIL
+[4]> ( select 0 '(a) )
+1. Trace: (SELECT '0 '(A))
+1. Trace: SELECT ==> A
+A
+[5]> ( select 2 '(a b c d) )
+1. Trace: (SELECT '2 '(A B C D))
+2. Trace: (SELECT '1 '(B C D))
+3. Trace: (SELECT '0 '(C D))
+3. Trace: SELECT ==> C
+2. Trace: SELECT ==> C
+1. Trace: SELECT ==> C
+C
+[6]> ( select 5 '(a b c d e f g) )
+1. Trace: (SELECT '5 '(A B C D E F G))
+2. Trace: (SELECT '4 '(B C D E F G))
+3. Trace: (SELECT '3 '(C D E F G))
+4. Trace: (SELECT '2 '(D E F G))
+5. Trace: (SELECT '1 '(E F G))
+6. Trace: (SELECT '0 '(F G))
+6. Trace: SELECT ==> F
+5. Trace: SELECT ==> F
+4. Trace: SELECT ==> F
+3. Trace: SELECT ==> F
+2. Trace: SELECT ==> F
+1. Trace: SELECT ==> F
+F
+[7]> ( untrace )
+(SELECT)
+[8]> ( pick '(1 2 3 4 5 6) )
+2
+[9]> ( pick '(1 2 3 4 5 6) )
+4
+[10]> ( pick '(a b c d e f g) )
+E
+[11]> ( pick '(a b c d e f g) )
+C
+[12]> ( pick '(cat dog sheep cow) )
+COW
+[13]> ( pick '(cat dog sheep cow) )
+COW
+[14]> ( pick '(cat dog sheep cow) )
+CAT
+[15]> ( bye )

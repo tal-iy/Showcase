@@ -1,0 +1,28 @@
+[5]> ( demo--randomly-heuristically-discard-cards )
+>>> Testing: randomly-discard-cards
+--- *hand1* = ((5 . DIAMOND) (10 . CLUB) (7 . CLUB))
+--- *hand2* = ((8 . HEART) (10 . SPADE) (5 . HEART))
+--- *hand1* = ((5 . DIAMOND) NIL (7 . CLUB))
+--- *hand2* = ((8 . HEART) NIL (5 . HEART))
+NIL
+[6]> ( demo--randomly-heuristically-discard-cards )
+>>> Testing: randomly-discard-cards
+--- *hand1* = ((QUEEN . DIAMOND) (2 . DIAMOND) (8 . CLUB))
+--- *hand2* = ((3 . SPADE) (KING . DIAMOND) (2 . CLUB))
+--- *hand1* = ((QUEEN . DIAMOND) NIL (8 . CLUB))
+--- *hand2* = ((3 . SPADE) (KING . DIAMOND) NIL)
+NIL
+[7]> ( demo--randomly-heuristically-discard-cards )
+>>> Testing: randomly-discard-cards
+--- *hand1* = ((8 . HEART) (ACE . DIAMOND) (4 . HEART))
+--- *hand2* = ((6 . HEART) (4 . DIAMOND) (10 . CLUB))
+--- *hand1* = ((8 . HEART) NIL (4 . HEART))
+--- *hand2* = ((6 . HEART) NIL (10 . CLUB))
+NIL
+[8]> ( demo--randomly-heuristically-discard-cards )
+>>> Testing: randomly-discard-cards
+--- *hand1* = ((ACE . CLUB) (6 . DIAMOND) (8 . CLUB))
+--- *hand2* = ((4 . SPADE) (QUEEN . DIAMOND) (9 . SPADE))
+--- *hand1* = ((ACE . CLUB) (6 . DIAMOND) NIL)
+--- *hand2* = ((4 . SPADE) NIL (9 . SPADE))
+NIL

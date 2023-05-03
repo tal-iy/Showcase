@@ -1,0 +1,127 @@
+[2]> ( compute-statistics 10 )
+((4 . S) (7 . H) (A . S)) ((8 . C) (5 . H) (6 . C))
+((4 . S) (7 . H) (9 . D)) ((8 . C) (A . D) (6 . C))
+((4 . S) (7 . H) (3 . C)) ((8 . H) (A . D) (6 . C))
+((6 . S) (7 . H) (3 . C)) ((J . C) (A . D) (6 . C))
+((6 . S) (9 . C) (3 . C)) ((J . C) (A . D) (8 . S))
+((6 . S) (9 . C) (K . C)) ((A . C) (A . D) (8 . S))
+((K . D) (9 . C) (K . C)) ((A . C) (3 . H) (8 . S))
+((K . D) (6 . D) (K . C)) ((J . S) (3 . H) (8 . S))
+((A . H) (6 . D) (K . C)) ((J . S) (2 . D) (8 . S))
+((A . H) (6 . D) (7 . D)) ((J . S) (2 . D) (2 . H))
+((7 . S) (6 . D) (7 . D)) ((J . S) (5 . C) (2 . H))
+((7 . S) (X . C) (7 . D)) ((J . S) (K . S) (2 . H))
+((7 . S) (7 . C) (7 . D)) ((5 . D) (K . S) (2 . H))
+((7 . S) (4 . C) (7 . D)) ((2 . C) (K . S) (2 . H))
+((7 . S) (3 . S) (7 . D)) ((2 . C) (6 . H) (2 . H))
+((7 . S) (2 . S) (7 . D)) ((2 . C) (X . D) (2 . H))
+((7 . S) (Q . C) (7 . D)) ((X . S) (X . D) (2 . H))
+((7 . S) (5 . S) (7 . D)) ((9 . H) (X . D) (2 . H))
+((7 . S) (5 . S) (Q . D)) ((9 . H) (9 . S) (2 . H))
+((J . H) (5 . S) (Q . D)) ((9 . H) (9 . S) (Q . H))
+((X . H) (5 . S) (Q . D)) ((Q . S) (9 . S) (Q . H))
+((X . H) (4 . D) (Q . D)) ((3 . D) (9 . S) (Q . H))
+((J . D) (4 . D) (Q . D)) ((3 . D) (9 . S) (K . H))
+--> Player 1 wins with (QUEEN HIGH DIAMOND FLUSH)
+((7 . H) (A . C) (X . C)) ((8 . C) (9 . S) (9 . C))
+((7 . H) (A . C) (Q . S)) ((8 . C) (9 . S) (2 . H))
+((7 . H) (A . C) (9 . H)) ((Q . C) (9 . S) (2 . H))
+((7 . H) (A . C) (3 . C)) ((Q . C) (4 . H) (2 . H))
+((7 . H) (6 . C) (3 . C)) ((J . C) (4 . H) (2 . H))
+((7 . H) (3 . D) (3 . C)) ((4 . S) (4 . H) (2 . H))
+((7 . H) (X . D) (3 . C)) ((4 . S) (J . H) (2 . H))
+((7 . H) (X . D) (5 . C)) ((X . H) (J . H) (2 . H))
+--> Player 2 wins with (JACK HIGH HEART FLUSH)
+((6 . D) (7 . D) (9 . H)) ((7 . C) (8 . S) (A . S))
+((6 . D) (7 . D) (J . H)) ((7 . C) (8 . S) (A . D))
+((6 . D) (Q . H) (J . H)) ((7 . C) (6 . C) (A . D))
+((K . H) (Q . H) (J . H)) ((Q . S) (6 . C) (A . D))
+--> Player 1 wins with (KING HIGH STRAIGHT HEART FLUSH)
+((A . C) (9 . H) (9 . D)) ((8 . S) (2 . S) (7 . S))
+--> Player 2 wins with (8 HIGH SPADE FLUSH)
+((9 . S) (4 . D) (5 . S)) ((J . C) (X . C) (X . S))
+((A . C) (4 . D) (5 . S)) ((8 . D) (X . C) (X . S))
+((A . C) (K . S) (5 . S)) ((8 . D) (2 . S) (X . S))
+((K . H) (K . S) (5 . S)) ((6 . S) (2 . S) (X . S))
+--> Player 2 wins with (10 HIGH STRAIGHT SPADE FLUSH)
+((A . C) (A . S) (J . S)) ((2 . C) (9 . C) (Q . H))
+((A . C) (A . S) (2 . H)) ((2 . C) (9 . C) (2 . D))
+((A . C) (5 . S) (2 . H)) ((2 . C) (4 . S) (2 . D))
+((6 . S) (5 . S) (2 . H)) ((2 . C) (A . D) (2 . D))
+((7 . H) (5 . S) (2 . H)) ((2 . C) (A . D) (8 . S))
+((K . D) (5 . S) (2 . H)) ((2 . C) (X . H) (8 . S))
+((K . D) (6 . D) (2 . H)) ((2 . C) (Q . S) (8 . S))
+((K . D) (6 . D) (4 . D)) ((2 . C) (Q . S) (J . H))
+--> Player 1 wins with (KING HIGH DIAMOND FLUSH)
+((X . H) (A . C) (8 . C)) ((9 . D) (7 . S) (J . C))
+((K . D) (A . C) (8 . C)) ((9 . D) (4 . C) (J . C))
+((K . D) (A . C) (6 . D)) ((9 . D) (3 . H) (J . C))
+((6 . C) (A . C) (6 . D)) ((9 . D) (7 . H) (J . C))
+((3 . D) (A . C) (6 . D)) ((9 . D) (7 . H) (9 . C))
+((4 . D) (A . C) (6 . D)) ((9 . D) (7 . H) (5 . S))
+((4 . D) (9 . H) (6 . D)) ((9 . D) (Q . D) (5 . S))
+((4 . D) (9 . H) (J . H)) ((9 . D) (Q . D) (Q . C))
+((4 . D) (9 . H) (3 . S)) ((4 . H) (Q . D) (Q . C))
+((4 . D) (9 . H) (Q . S)) ((4 . H) (Q . D) (8 . S))
+((4 . D) (A . H) (Q . S)) ((4 . H) (X . D) (8 . S))
+((4 . D) (A . H) (J . D)) ((4 . H) (X . D) (6 . H))
+((5 . D) (A . H) (J . D)) ((4 . H) (X . S) (6 . H))
+((5 . D) (2 . D) (J . D)) ((7 . D) (X . S) (6 . H))
+--> Player 1 wins with (JACK HIGH DIAMOND FLUSH)
+((5 . C) (X . D) (9 . S)) ((7 . C) (K . C) (6 . S))
+((A . S) (X . D) (9 . S)) ((7 . C) (K . C) (J . C))
+--> Player 2 wins with (KING HIGH CLUB FLUSH)
+((8 . D) (7 . H) (X . C)) ((Q . H) (7 . C) (8 . S))
+((8 . D) (7 . H) (5 . H)) ((Q . H) (X . D) (8 . S))
+((8 . D) (K . C) (5 . H)) ((J . S) (X . D) (8 . S))
+((8 . D) (4 . S) (5 . H)) ((J . S) (3 . C) (8 . S))
+((8 . D) (4 . S) (Q . S)) ((9 . C) (3 . C) (8 . S))
+((X . S) (4 . S) (Q . S)) ((9 . C) (3 . C) (K . S))
+--> Player 1 wins with (QUEEN HIGH SPADE FLUSH)
+((9 . S) (A . D) (5 . C)) ((Q . D) (J . C) (K . C))
+((9 . S) (A . D) (5 . S)) ((Q . D) (9 . C) (K . C))
+((9 . H) (A . D) (5 . S)) ((Q . D) (A . H) (K . C))
+((9 . H) (A . D) (6 . C)) ((Q . D) (A . H) (A . S))
+((9 . H) (5 . H) (6 . C)) ((Q . D) (4 . H) (A . S))
+((9 . H) (X . H) (6 . C)) ((Q . D) (8 . C) (A . S))
+((2 . C) (X . H) (6 . C)) ((6 . S) (8 . C) (A . S))
+((5 . D) (X . H) (6 . C)) ((X . D) (8 . C) (A . S))
+((5 . D) (6 . H) (6 . C)) ((X . D) (2 . S) (A . S))
+((5 . D) (6 . H) (J . D)) ((X . D) (2 . S) (3 . H))
+((5 . D) (6 . H) (2 . H)) ((X . D) (9 . D) (3 . H))
+((5 . D) (6 . H) (J . S)) ((K . H) (9 . D) (3 . H))
+((3 . C) (6 . H) (J . S)) ((K . H) (X . C) (3 . H))
+((3 . C) (2 . D) (J . S)) ((Q . S) (X . C) (3 . H))
+((3 . C) (2 . D) (6 . D)) ((Q . S) (3 . S) (3 . H))
+((3 . C) (2 . D) (7 . C)) ((Q . S) (3 . S) (3 . D))
+((3 . C) (8 . S) (7 . C)) ((Q . S) (3 . S) (X . S))
+--> Player 2 wins with (QUEEN HIGH SPADE FLUSH)
+*vgame-count* = 10
+*iturn-count* = 87
+*twin1-count* = 5
+*awin2-count* = 5
+*ldraw-count* = 0
+*if1f2-count* = 0
+NIL
+[3]> ( compute-statistics 100 )
+; ...
+; redacted
+; ...
+*vgame-count* = 100
+*iturn-count* = 920
+*twin1-count* = 45
+*awin2-count* = 44
+*ldraw-count* = 11
+*if1f2-count* = 2
+NIL
+[4]> ( compute-statistics 1000 )
+; ...
+; redacted
+; ...
+*vgame-count* = 1000
+*iturn-count* = 10223
+*twin1-count* = 465
+*awin2-count* = 436
+*ldraw-count* = 99
+*if1f2-count* = 20
+NIL

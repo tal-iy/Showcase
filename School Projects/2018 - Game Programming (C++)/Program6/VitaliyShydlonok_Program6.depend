@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1439924904 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\audio.cpp
+	"Audio.h"
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1439924904 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\game.cpp
+	"Game.h"
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\graphics.h
+	<SDL/SDL.h>
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\input.h
+	<SDL/SDL.h>
+
+1439924904 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\graphics.cpp
+	"Graphics.h"
+
+1522096599 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\image.cpp
+	"Image.h"
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439924904 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\input.cpp
+	"Input.h"
+
+1439924904 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\music.cpp
+	"Music.h"
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\music.h
+	"Audio.h"
+
+1439924904 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\outlinefont.cpp
+	"OutlineFont.h"
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\outlinefont.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+
+1439924904 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\rasterfont.cpp
+	"RasterFont.h"
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\rasterfont.h
+	"Image.h"
+
+1439924904 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\sound.cpp
+	"Sound.h"
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\core\sound.h
+	"Audio.h"
+
+1522094609 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\main.cpp
+	"MapDemo.h"
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\mapdemo.h
+	"Core/Game.h"
+	"Map.h"
+
+1439924904 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\map.h
+	"Core/Graphics.h"
+	"Core/Image.h"
+	<fstream>
+	<vector>
+
+1439924904 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\map.cpp
+	"Map.h"
+
+1439924904 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program6\mapdemo.cpp
+	"MapDemo.h"
+

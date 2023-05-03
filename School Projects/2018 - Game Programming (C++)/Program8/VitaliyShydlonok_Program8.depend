@@ -1,0 +1,218 @@
+# depslib dependency file v1.0
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\audio.cpp
+	"Audio.h"
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\audio.h
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\game.cpp
+	"Game.h"
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\game.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+	"Input.h"
+	"Audio.h"
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\graphics.h
+	<SDL/SDL.h>
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\input.h
+	<SDL/SDL.h>
+
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\gamestate.cpp
+	"GameState.h"
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\gamestate.h
+	"StateManager.h"
+	"Graphics.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\statemanager.h
+	<stack>
+	"GameState.h"
+	"Graphics.h"
+
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\graphics.cpp
+	"Graphics.h"
+
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\image.cpp
+	"Image.h"
+
+1439928514 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\image.h
+	"Graphics.h"
+	<SDL/SDL_image.h>
+
+1439928514 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\input.cpp
+	"Input.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\map.cpp
+	"Map.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\map.h
+	"Graphics.h"
+	"Image.h"
+	<fstream>
+	<vector>
+
+1523828399 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\mapnode.cpp
+	"MapNode.h"
+
+1523830631 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\mapnode.h
+	"Map.h"
+	"SceneNode.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\scenenode.h
+	"Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\rectangle.h
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\music.cpp
+	"Music.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\music.h
+	"Audio.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\outlinefont.cpp
+	"OutlineFont.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\outlinefont.h
+	<SDL/SDL_ttf.h>
+	"Graphics.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\rasterfont.cpp
+	"RasterFont.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\rasterfont.h
+	"Image.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\rectangle.cpp
+	"Rectangle.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\scene.cpp
+	"Scene.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\scenenode.cpp
+	"SceneNode.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\sound.cpp
+	"Sound.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\sound.h
+	"Audio.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\sprite.cpp
+	"Sprite.h"
+
+1439928516 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\sprite.h
+	"Image.h"
+	"Rectangle.h"
+
+1439928516 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\core\statemanager.cpp
+	"StateManager.h"
+
+1439924912 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\map.cpp
+	"Map.h"
+
+1439924912 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\map.h
+	"Core/Graphics.h"
+	"Core/Image.h"
+	<fstream>
+	<vector>
+
+1439924912 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\mapnode.cpp
+	"MapNode.h"
+
+1439924912 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\mapnode.h
+	"Map.h"
+	"SceneNode.h"
+
+1439924912 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\scenenode.h
+	"Core/Graphics.h"
+	"Scene.h"
+	"Rectangle.h"
+
+1439924912 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\scene.h
+	<list>
+	"SceneNode.h"
+	"Rectangle.h"
+
+1439924912 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\rectangle.h
+
+1439924912 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\rectangle.cpp
+	"Rectangle.h"
+
+1439924912 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\scene.cpp
+	"Scene.h"
+
+1523827124 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\main.cpp
+	"SceneDemo.h"
+
+1523830470 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\scenedemo.h
+	"Core/Game.h"
+	"Core/Image.h"
+	"Core/Scene.h"
+	"Core/Rectangle.h"
+	"Core/Map.h"
+	"Core/MapNode.h"
+	"Factory.h"
+	"Player.h"
+	"NPC.h"
+	"ExplosionEntity.h"
+
+1523830576 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\npc.cpp
+	"NPC.h"
+
+1523830309 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\npc.h
+	"Core/MapNode.h"
+	"Core/Sprite.h"
+	"Factory.h"
+	"EntityDef.h"
+
+1523830245 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\scenedemo.cpp
+	"SceneDemo.h"
+
+1439924912 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\scenenode.cpp
+	"SceneNode.h"
+
+1523829906 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\factory.cpp
+	"Factory.h"
+
+1523829669 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\factory.h
+	"Core/Image.h"
+	"Core/Map.h"
+	"Core/SceneNode.h"
+	"NPC.h"
+	"EntityDef.h"
+	"ExplosionEntity.h"
+	"Player.h"
+
+1523830524 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\entitydef.h
+
+1523829400 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\explosionentity.h
+	"Core\SceneNode.h"
+	"Core\Sprite.h"
+	"EntityDef.h"
+	"Factory.h"
+
+1523830631 c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\player.h
+	"Core/Sprite.h"
+	"Core/SceneNode.h"
+	"Core/Map.h"
+	"Core/Rectangle.h"
+	"EntityDef.h"
+	"Factory.h"
+
+1523829442 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\explosionentity.cpp
+	"ExplosionEntity.h"
+
+1523829669 source:c:\users\glance\downloads\gamedev\vitaliyshydlonok_program8\player.cpp
+	"Player.h"
+

@@ -1,0 +1,11 @@
+[3]> ( demo--shuffle-deck )
+>>> Testing: shuffle-deck
+--- *deck* =
+((4 . SPADE) (8 . CLUB) (7 . HEART) (5 . HEART) (ACE . SPADE) (6 . CLUB) (9 . DIAMOND) (ACE . DIAMOND) (3 . CLUB)
+ (8 . HEART) (6 . SPADE) (JACK . CLUB) (9 . CLUB) (8 . SPADE) (KING . CLUB) (ACE . CLUB) (KING . DIAMOND) (3 . HEART)
+ (6 . DIAMOND) (JACK . SPADE) (ACE . HEART) (2 . DIAMOND) (7 . DIAMOND) (2 . HEART) (7 . SPADE) (5 . CLUB) (10 . CLUB)
+ (KING . SPADE) (7 . CLUB) (5 . DIAMOND) (4 . CLUB) (2 . CLUB) (3 . SPADE) (6 . HEART) (2 . SPADE) (10 . DIAMOND)
+ (QUEEN . CLUB) (10 . SPADE) (5 . SPADE) (9 . HEART) (QUEEN . DIAMOND) (9 . SPADE) (JACK . HEART) (QUEEN . HEART)
+ (10 . HEART) (QUEEN . SPADE) (4 . DIAMOND) (3 . DIAMOND) (JACK . DIAMOND) (KING . HEART) (4 . HEART) (8 . DIAMOND))
+--- number of cards in *deck* = 52
+NIL

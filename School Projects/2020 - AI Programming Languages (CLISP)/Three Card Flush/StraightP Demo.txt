@@ -1,0 +1,7 @@
+[19]> ( demo--straight-p )
+>>> Testing: straight-p
+((5 . SPADE) (3 . DIAMOND) (4 . SPADE) (6 . CLUB)) is a straight
+((5 . SPADE) (7 . DIAMOND) (4 . SPADE) (8 . CLUB)) is not a straight
+((KING . HEART) (QUEEN . DIAMOND) (ACE . SPADE) (10 . CLUB) (JACK . DIAMOND)) is a straight
+((ACE . CLUB) (2 . DIAMOND) (3 . SPADE)) is not a straight
+NIL

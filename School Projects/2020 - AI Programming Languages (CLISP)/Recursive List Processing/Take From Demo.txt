@@ -1,0 +1,11 @@
+[1]> ( load "RecursiveListProcessing.lisp" )
+;; Loading file RecursiveListProcessing.lisp ...
+;; Loaded file RecursiveListProcessing.lisp
+T
+[2]> ( take-from 'a '(a b r a c a d a b r a) )
+(B R C D B R)
+[3]> ( take-from '(d e) '((a b) (b c) (c d) (d e) (e f)) )
+((A B) (B C) (C D) (E F))
+[4]> ( take-from 'cat '( wolf dog lion cat ) )
+(WOLF DOG LION)
+[5]> ( bye )

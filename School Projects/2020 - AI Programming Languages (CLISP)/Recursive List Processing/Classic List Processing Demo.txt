@@ -1,0 +1,115 @@
+[1]> ( load "RecursiveListProcessing.lisp" )
+;; Loading file RecursiveListProcessing.lisp ...
+;; Loaded file RecursiveListProcessing.lisp
+T
+[2]> ( singleton-p '(a) )
+T
+[3]> ( singleton-p '(a b) )
+NIL
+[4]> ( singleton-p '(a b c d e f g) )
+NIL
+[5]> ( trace rac )
+;; Tracing function RAC.
+(RAC)
+[6]> ( rac '(a) )
+1. Trace: (RAC '(A))
+1. Trace: RAC ==> A
+A
+[7]> ( rac '(a b c d) )
+1. Trace: (RAC '(A B C D))
+2. Trace: (RAC '(B C D))
+3. Trace: (RAC '(C D))
+4. Trace: (RAC '(D))
+4. Trace: RAC ==> D
+3. Trace: RAC ==> D
+2. Trace: RAC ==> D
+1. Trace: RAC ==> D
+D
+[8]> ( trace rdc )
+;; Tracing function RDC.
+(RDC)
+[9]> ( rdc '(a) )
+1. Trace: (RDC '(A))
+1. Trace: RDC ==> NIL
+NIL
+[10]> ( rdc '(a b c d e) )
+1. Trace: (RDC '(A B C D E))
+2. Trace: (RDC '(B C D E))
+3. Trace: (RDC '(C D E))
+4. Trace: (RDC '(D E))
+4. Trace: RDC ==> (D)
+3. Trace: RDC ==> (C D)
+2. Trace: RDC ==> (B C D)
+1. Trace: RDC ==> (A B C D)
+(A B C D)
+[11]> ( untrace )
+(RDC RAC)
+[12]> ( trace snoc )
+;; Tracing function SNOC.
+(SNOC)
+[13]> ( snoc 'blue '() )
+1. Trace: (SNOC 'BLUE 'NIL)
+1. Trace: SNOC ==> (BLUE)
+(BLUE)
+[14]> ( snoc 'blue '(red) )
+1. Trace: (SNOC 'BLUE '(RED))
+2. Trace: (SNOC 'BLUE 'NIL)
+2. Trace: SNOC ==> (BLUE)
+1. Trace: SNOC ==> (RED BLUE)
+(RED BLUE)
+[15]> ( snoc 'blue '(azure cyan sapphire teal) )
+1. Trace: (SNOC 'BLUE '(AZURE CYAN SAPPHIRE TEAL))
+2. Trace: (SNOC 'BLUE '(CYAN SAPPHIRE TEAL))
+3. Trace: (SNOC 'BLUE '(SAPPHIRE TEAL))
+4. Trace: (SNOC 'BLUE '(TEAL))
+5. Trace: (SNOC 'BLUE 'NIL)
+5. Trace: SNOC ==> (BLUE)
+4. Trace: SNOC ==> (TEAL BLUE)
+3. Trace: SNOC ==> (SAPPHIRE TEAL BLUE)
+2. Trace: SNOC ==> (CYAN SAPPHIRE TEAL BLUE)
+1. Trace: SNOC ==> (AZURE CYAN SAPPHIRE TEAL BLUE)
+(AZURE CYAN SAPPHIRE TEAL BLUE)
+[16]> ( untrace )
+(SNOC)
+[17]> ( trace palindrome-p )
+;; Tracing function PALINDROME-P.
+(PALINDROME-P)
+[18]> ( palindrome-p '() )
+1. Trace: (PALINDROME-P 'NIL)
+1. Trace: PALINDROME-P ==> T
+T
+[19]> ( palindrome-p '(palindrome) )
+1. Trace: (PALINDROME-P '(PALINDROME))
+1. Trace: PALINDROME-P ==> T
+T
+[20]> ( palindrome-p '(clos sloc) )
+1. Trace: (PALINDROME-P '(CLOS SLOC))
+1. Trace: PALINDROME-P ==> NIL
+NIL
+[21]> ( palindrome-p '(food drink food) )
+1. Trace: (PALINDROME-P '(FOOD DRINK FOOD))
+2. Trace: (PALINDROME-P '(DRINK))
+2. Trace: PALINDROME-P ==> T
+1. Trace: PALINDROME-P ==> T
+T
+[22]> ( palindrome-p '(1 2 3 4 5 4 2 3 1) )
+1. Trace: (PALINDROME-P '(1 2 3 4 5 4 2 3 1))
+2. Trace: (PALINDROME-P '(2 3 4 5 4 2 3))
+2. Trace: PALINDROME-P ==> NIL
+1. Trace: PALINDROME-P ==> NIL
+NIL
+[23]> ( palindrome-p '(hey hey my my my my hey hey) )
+1. Trace: (PALINDROME-P '(HEY HEY MY MY MY MY HEY HEY))
+2. Trace: (PALINDROME-P '(HEY MY MY MY MY HEY))
+3. Trace: (PALINDROME-P '(MY MY MY MY))
+4. Trace: (PALINDROME-P '(MY MY))
+5. Trace: (PALINDROME-P 'NIL)
+5. Trace: PALINDROME-P ==> T
+4. Trace: PALINDROME-P ==> T
+3. Trace: PALINDROME-P ==> T
+2. Trace: PALINDROME-P ==> T
+1. Trace: PALINDROME-P ==> T
+T
+[24]> ( untrace )
+(PALINDROME-P)
+[25]> ( bye )
