@@ -1,0 +1,30 @@
+################################################################
+#
+#	Vitaliy Shydlonok
+#	CSC 211-002
+#	9/21/2017
+#	vs_lab 6 outline
+#
+#	Prompts the user to input a string,
+#	then counts the number of characters in that
+#	string and prints that number.
+#
+################################################################
+
+Begin
+	Print prompt
+	Get string input
+	Move input to $t2
+	Initialize the counter $t1
+	Begin while loop
+		Load current character into $t0
+		If end of string, then branch to end of while loop
+		Increment counter $t1
+		Increment current character $t2
+		Jump back to start of while loop
+	End while loop
+	Print answer
+	Print counter $t1
+	CRLF
+	System return
+End

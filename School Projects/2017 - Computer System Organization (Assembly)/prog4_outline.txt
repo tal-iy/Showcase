@@ -1,0 +1,77 @@
+################################################################
+#
+#	Vitaliy Shydlonok
+#	CSC 211-002
+#	9/21/2017
+#	vs_program 4 outline
+#
+#	Prompts the user to input an integer value,
+#	then prints the digits from 1 to that number
+#	in a right justified columns format.
+#
+################################################################
+
+Begin
+	Print prompt
+	Get integer input
+	Move input into $t0 
+	Initialize input length counter $t3
+	Copy input into $t4 for input length loop
+	Begin input length loop
+		Calculate ($t4 / 10) and put it into $t4
+		If $t4 equals zero, then branch to end of input length loop
+		Increment input length counter $t3
+		Jump back to start of input length loop
+	End input length loop
+	Print crlf
+	Initialize the print loop counter $t1
+	Begin print loop
+		Initialize current length counter $t6
+		Copy print loop counter to $t5
+		Begin current length loop
+			Calculate ($t5 / 10) and put it into $t5
+			If $t5 equals zero, then branch to end of current length loop
+			Increment current length counter $t6
+			Jump back to start of current length loop
+		End current length loop
+		Subtract current length counter from input length counter, into number of spaces $t6 
+		Begin spaces loop
+			If $t6 equals zero, then branch to end of spaces loop
+			Print a space character
+			Decrement number of spaces $t6
+			Jump back to start of spaces loop
+		End spaces loop
+		Print the current number
+		Print two space characters
+		If print loop counter equals initial input, then branch to end of print loop
+		Calculate ((print loop counter) mod 10) and move it to $t2
+		If $t2 equlas zero, then branch to CRLF
+		Jump to end of CRLF
+		Begin CRLF
+			Print crlf
+		End CRLF
+		Increment print loop counter $t1
+		Jump back to start of print loop
+	End print loop
+	Print crlf
+	System return
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
